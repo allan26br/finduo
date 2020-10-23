@@ -1,0 +1,11 @@
+.camada1{
+    z-index: 0;
+}
+
+.camada2{
+    z-index: 5;
+}
+
+.camada3{
+    z-index: 10;
+}

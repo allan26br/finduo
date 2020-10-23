@@ -1,0 +1,87 @@
+.top{
+    
+    height: 645px;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30px 1fr 1fr 1fr;
+
+    align-items: center;
+    justify-content: center;
+
+    grid-template-areas: '. . .'
+                         'title logo img'
+                         'title nheu img'
+                         '. btn img';
+
+    justify-content: center;    
+
+    gap: 10px;
+
+    
+}
+.parapaloma{
+    
+    
+
+    max-height: 440px;
+    width: 350px;
+
+    margin: auto;
+    
+    margin: auto 115px auto auto;
+
+    border: auto auto auto 100px;
+    
+    
+    grid-area: img;
+     
+       
+    
+}
+
+.top h1{
+    width: 348px;
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 70px;
+    margin: 220px auto auto 50px;
+    padding: 0;
+
+    
+
+    grid-area: title;
+}
+
+.top svg{
+    position: absolute;
+    width: 100%;
+    rotate: 90;
+}
+.btn-downloads{
+    margin: auto auto auto auto;
+    grid-area: btn;
+
+    background: linear-gradient(329.54deg, #b64be9 0%, #963eeb 100%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-downloads:hover{
+    background: linear-gradient(329.54deg, #a148ca 0%, #7b3bb6 100%);
+}
+#igue {
+    height: 60px;
+
+
+    margin: auto;
+
+    grid-area: logo;
+}

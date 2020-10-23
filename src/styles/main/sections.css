@@ -1,0 +1,351 @@
+.evy-container {
+    height: 535px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-end;
+    
+    
+}
+
+.evy-container #evy{
+    width: 700px;
+    height: 455px;
+    margin-bottom: -220px;
+}
+
+.evy-container .no-bounce-in-right{
+    margin-right: -2000px;
+}
+
+
+.evy-container .teste{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-direction: column;
+
+    
+    background-image: url('../../assets/images/fundo.jpg');
+    animation: fundo 8s .1s infinite  alternate;     
+    
+}
+
+.evy-container .teste img{
+    width: 160px;
+    height: 60px;
+    margin: 0 0 0 70px;
+}
+
+
+.teste h1 {
+    font-weight: 500;
+    line-height: 4.6rem;
+    margin-top: 23px;
+    margin-left: 70px;
+    font: 40px poppins;
+    color: #fff;
+    
+}
+.teste p {
+    font: 20px poppins;
+    color: #fff;
+    margin-top: -70px;
+   margin-left: 70px;
+}
+.sobre{
+    height: 645px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#find {
+    margin-top: 130px;
+    margin-left: 460px;
+
+    width: 215px;
+    height: 60px;
+    animation: logo 1s  infinite; 
+}
+
+#sobresobre {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.perfil{
+    width: 100vw;
+    height: 300px;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;   
+}
+.perfil .revoltadinho {
+    display: flex;
+    flex-direction: column;
+}
+
+.perfilcss {
+    width: 200px;
+    height: 320px;
+    margin-top: 13px;
+    margin-left: 80px;
+}
+.tricss {
+    width: 150px;
+    height: 350px;
+    margin-top: -17px;
+    margin-left: 0px;
+}
+
+.perfil h1{
+    font: 50px Righteous;
+    margin: 50px 0  0 110px;
+}
+.perfil p {
+    font: 30px Righteous;
+    margin-top: 16px;
+    margin-left: 110px;
+}
+
+
+.toxidade{
+    width: 100vw;
+    height: 300px;
+    background-color: #963EEB;
+    display: flex;
+    flex-direction: row;   
+}
+.vipercss {
+    width: 215px;
+    height: 330px;
+    margin-top: 10px;
+    margin-left: 60px;
+ 
+}
+
+
+.toxidade .revoltadinho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toxidade h1{
+    font: 50px Righteous;
+    margin: 45px 0  0 360px;
+}
+.toxidade p {
+    font: 30px Righteous;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.tri2css {
+    width: 150px;
+    height: 350px;
+    margin: -17px 0 0 auto;
+
+}
+
+
+
+
+
+
+.filtros{
+    width: 100vw;
+    height: 300px;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+
+    
+    
+}
+.filtros .revoltadinho {
+    display: flex;
+    flex-direction: column;
+}
+
+.tricss {
+    width: 150px;
+    height: 350px;
+    margin-top: -17px;
+    margin-left: 0px;
+   
+}
+
+.filtros h1{
+    font: 50px Righteous;
+    margin: 50px 0  0 110px;
+}
+.filtros p {
+    font: 30px Righteous;
+    margin-top: 16px;
+    margin-left: 110px;
+}
+
+.filtros svg{
+    right: 10px;
+    font-size: 100px;
+    
+    margin: auto;
+    color: #963EEB;
+}
+.filtroscss {
+    width: 200px;
+    height: 320px;
+}
+
+
+
+.recompensas{
+    width: 100vw;
+    height: 300px;
+    background-color: #963EEB;
+    display: flex;
+    flex-direction: row;   
+}
+.vipercss {
+    width: 215px;
+    height: 330px;
+    margin-top: 10px;
+    margin-left: 60px;
+ 
+}
+
+
+.recompensas .revoltadinho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recompensas h1{
+    font: 50px Righteous;
+    margin: 45px 0  0 250px;
+}
+.recompensas p {
+    font: 30px Righteous;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.tri2css {
+    width: 150px;
+    height: 350px;
+    margin: -17px 0 0 auto;
+
+}
+
+.coroacss {
+    width: 243px;
+    height: 343px;
+    margin-top: 6px;
+    margin-left: 60px;
+}
+
+
+
+
+
+.competitivo{
+    width: 100vw;
+    height: 300px;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+   
+}
+.competitivo .revoltadinho {
+    display: flex;
+    flex-direction: column;
+}
+
+.tricss {
+    width: 150px;
+    height: 350px;
+    margin-top: -17px;
+    margin-left: 0px;
+   
+}
+
+.competitivo h1{
+    font: 50px Righteous;
+    margin: 50px 0  0 110px;
+}
+.competitivo p {
+    font: 30px Righteous;
+    margin-top: 16px;
+    margin-left: 110px;
+}
+
+.competitivosvg{
+    right: 10px;
+    font-size: 100px;
+    
+    margin: auto;
+    color: #963EEB;
+}
+.mercycss {
+    width: 230px;
+    height: 320px;
+    margin-right: 100px;
+    margin-top: -10px;
+}
+
+.rodape {
+    width: 100%;
+    height: 600px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.rodape .logorodape{
+    width: 163px;
+    height: 56px;
+    margin: 35px 0 35px 0;
+}
+.rodape .dozeanosrodape {
+    width: 140px;
+    height: 80px;
+    margin: 35px 0 10px 0;
+}
+.btn-container{
+    width: 285px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+}
+
+.btn-container a{
+    color: #963EEB;
+    font-size: 35px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.btn-container a:hover {
+    color: #7731b8;
+    transition: 250ms;
+}
+
+

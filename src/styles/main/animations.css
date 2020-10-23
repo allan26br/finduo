@@ -1,0 +1,75 @@
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+.bounce-in-right {
+    animation: bounce-in-right 3s ease ;
+  }
+
+@keyframes fundo{
+    0%{
+        background-position: 50% 0%;
+    }
+    100%{
+        background-position: 50% 100%;
+    }
+    
+    }
+
+
+    @keyframes logo {
+
+        
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes fadeInUp {
+        from {
+            transform: translate3d(0,10px,0)
+        }
+    
+        to {
+            transform: translate3d(0,0,0);
+            opacity: 1
+        }
+    }
+    
+    @-webkit-keyframes fadeInUp {
+        from {
+            transform: translate3d(0,10px,0)
+        }
+    
+        to {
+            transform: translate3d(0,0,0);
+            opacity: 1
+        }
+    }
+  
+      @keyframes bounce-in-right {
+        0% {
+          opacity: 0;
+          transform: translateX(2000px);
+        }
+        60% {
+          opacity: 1;
+        
+        }
+        80% { transform: translateX(0px); }
+        100% { transform: translateX(0); }
+        
+      }
