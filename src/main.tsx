@@ -23,6 +23,7 @@ import coroa from './assets/images/coroa.png'
 import podio from './assets/images/podio.png'
 import mercy from './assets/images/mercy.png'
 import dozeanos from './assets/images/classificacao-indicativa.png'
+import paloma2 from './assets/images/paloma2.png'
 
 import {ImFilter} from 'react-icons/im'
 import {GoMarkGithub} from 'react-icons/go'

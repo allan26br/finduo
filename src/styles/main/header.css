@@ -43,14 +43,10 @@
 
 .top h1{
     width: 348px;
-    font-size: 76px;
+    font-size: 5.5rem;
     font-weight: 900;
-    line-height: 70px;
     margin: 220px auto auto 50px;
     padding: 0;
-
-    
-
     grid-area: title;
 }
 
